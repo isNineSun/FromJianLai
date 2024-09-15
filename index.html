@@ -13,9 +13,17 @@
             <img src="images/jianlai_cover.png" alt="剑来封面" width="260" >
         </div>
         <input type="text" id="search" placeholder="请输入要查询的关键字/句...">
-        <button onclick="searchKeyword()">搜索</button>
+        <button id="replaceButton" onclick="searchKeyword()">搜索</button>
         <div id="results"></div>
     </div>
+
+    <!-- 加载提示框 -->
+    <div id="loadingOverlay">
+        <div class="loadingText">
+            <h2>正在搜索，请稍候...</h2>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>

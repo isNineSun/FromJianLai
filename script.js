@@ -163,5 +163,16 @@ async function searchKeyword() {
     }
 }
 
+document.getElementById("replaceButton").addEventListener("click", function() {
+    // 显示加载提示框
+    document.getElementById("loadingOverlay").style.display = "flex";
+
+    // 模拟一个延时，模拟搜索过程（比如1秒钟）
+    setTimeout(function() {
+        // 隐藏加载提示框
+        document.getElementById("loadingOverlay").style.display = "none";
+    }, 1000); // 模拟1秒的延时
+});
+
 // 在页面加载时初始化
 document.addEventListener('DOMContentLoaded', initialize);
