@@ -138,11 +138,13 @@ async function searchKeyword() {
         const resultsDiv = document.getElementById('results');
         resultsDiv.innerHTML = `
             <div class="summary">
+                <p class="highlight">来自剑来小助手帮您鉴定，鉴定为————</p>
                 ${totalOccurrences > 0
                     ? `<p class="highlight">"${keyword}" 出自剑来！</p>`
                     : `<p class="highlight">"${keyword}" 很可能不出自剑来。</p>`
                 }
-                <p>一共出现了 ${totalOccurrences} 次。</p>
+                <p>一共出现了 ${totalOccurrences} 次。快和大家一起分享吧！</p>
+                <p>鉴定结果来自：https://isninesun.github.io/FromJianLai/</p>
             </div>`;
 
         // 显示结果

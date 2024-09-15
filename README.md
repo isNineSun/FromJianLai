@@ -26,3 +26,6 @@
 空将笺上两行书，直犯龙颜请恩泽。
 我有迷魂招不得，雄鸡一声天下白。
 少年心事当拏云，谁念幽寒坐呜呃。
+    
+3. 搜索:**丁真**    
+![](https://raw.githubusercontent.com/isNineSun/img_repository/main/test3.png)    
